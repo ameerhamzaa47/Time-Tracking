@@ -51,24 +51,6 @@ const Time:FC = () => {
     useEffect(() => {
       setnowTime(timeNow);
     },[])
-    
-  
-    // function handelEvent(e:any){
-    //   if(e.key === 'Enter') {
-    //     console.log(nowTime);
-    //     let Userhour=Number(nowTime.slice(0,2))
-    //     let Userminute=Number(nowTime.slice(3,5))
-        
-    //     date=new Date()
-    //     HoursNow=date.getHours()
-    //     MinutesNow=date.getMinutes()
-  
-    //     let finalHour=Userhour-HoursNow
-    //     let finalMinute=Userminute-MinutesNow
-  
-        
-    //   }
-    // }
   
     function handleEvent(e: any) {
       if (e.key === 'Enter') {
